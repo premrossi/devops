@@ -216,24 +216,6 @@
 
         </profile>
          <profile>
-      <id>default-tools.jar</id>
-      <activation>
-        <file>
-          <missing>${java.home}/../lib/tools.jar</missing>
-        </file>
-      </activation>
-      <dependencies>
-        <dependency>
-          <exclusions>
-            <exclusion>
-              <groupId>com.sun</groupId>
-              <artifactId>tools</artifactId>
-            </exclusion>
-          </exclusions>
-        </dependency>
-      </dependencies>
-              </profile>
-         <profile>
             <id>metrics</id>
             <build>
                 <plugins>
